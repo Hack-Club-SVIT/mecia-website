@@ -16,6 +16,24 @@
 	font-weight: 700;
 	src: url("/fonts/chillax/700.ttf") format("truetype");
 }
+@font-face {
+	font-family: "Space Mono";
+	font-style: normal;
+	font-weight: 400;
+	src: url("/fonts/space-mono/400.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Space Mono";
+	font-style: italic;
+	font-weight: 400;
+	src: url("/fonts/space-mono/400-italic.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Space Mono";
+	font-style: normal;
+	font-weight: 700;
+	src: url("/fonts/space-mono/700.ttf") format("truetype");
+}
 
 :root {
 	font-family: "Space Mono", Inter, Avenir, Helvetica, Arial, sans-serif;
