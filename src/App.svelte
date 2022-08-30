@@ -53,9 +53,9 @@
 </div>
 <section id="sponsors">
 	<div class="container">
-		<h1 style="margin-bottom: 64px;">Sponsors</h1>
+		<h1 style="margin-bottom: 54px;">Sponsors</h1>
 		{#each Object.keys(sponsors) as type}
-			<h2 style="margin-bottom: 36px; color: #FFFFFF99">
+			<h2 style="margin-top: 20px; margin-bottom: 36px; color: #FFFFFF99">
 				{type}
 			</h2>
 			<div class="sponsor_grid">
@@ -84,11 +84,11 @@
 	#home {
 		display: flex;
 		flex-direction: column;
-		gap: 20vh;
+		justify-content: space-between;
 		align-items: center;
 		width: 100%;
 		padding: 1.8em 0 0;
-		min-height: 100vh;
+		height: 100vh;
 	}
 	.hero {
 		display: flex;
@@ -98,7 +98,7 @@
 		gap: 24px;
 	}
 	.typo_logo {
-		width: 90%;
+		width: 85%;
 		max-width: 32em;
 	}
 	.subtext {
@@ -115,6 +115,8 @@
 		font-size: 120%;
 		max-width: 240px;
 		text-align: center;
+		user-select: none;
+		cursor: pointer;
 	}
 	.pulsating_gradient {
 		background: linear-gradient(transparent, #16062dee);
@@ -127,18 +129,18 @@
 		animation-fill-mode: both;
 	}
 	#sponsors {
-		padding: 2.4em;
+		padding: 2.4em 0;
 		text-align: center;
 		background-color: #16062d;
 	}
 	.sponsor_grid {
 		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+		grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 		place-items: center;
 		row-gap: 48px;
 		column-gap: 24px;
 	}
 	.sponsor_img {
-		width: 260px;
+		width: 240px;
 	}
 </style>
