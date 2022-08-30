@@ -23,15 +23,6 @@
 </script>
 
 <svelte:head>
-	<title
-		>MECIA Hacks 2022 &bull; Multidisciplinary Hackathon + Ideothon &bull;
-		SVIT, Vasad</title
-	>
-	<meta content="MECIA Hacks 2022" property="og:title" />
-	<meta
-		content="Multidisciplinary Hackathon + Ideothon • SVIT, Vasad"
-		property="og:description"
-	/>
 	<script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
 </svelte:head>
 <div id="home">
