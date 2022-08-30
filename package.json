@@ -3,7 +3,7 @@
   "private": false,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://hack-club-svit.github.io/",
+  "homepage": "https://mecia.hackclubsvit.co/",
   "license": "MIT",
   "scripts": {
     "dev": "vite",
