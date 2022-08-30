@@ -116,6 +116,20 @@ section {
 	margin: 0 auto;
 }
 
+@keyframes pulsate {
+	0% {
+		opacity: 0.1;
+	}
+
+	50% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0.1;
+	}
+}
+
 @media (prefers-color-scheme: light) {
 	:root {
 		color: #213547;

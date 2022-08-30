@@ -49,6 +49,7 @@
 			SVIT, Vasad
 		</div>
 	</main>
+	<div class="pulsating_gradient" />
 </div>
 <section id="sponsors">
 	<div class="container">
@@ -78,6 +79,7 @@
 		justify-content: space-between;
 		align-items: center;
 		width: 100%;
+		padding: 0 1em;
 	}
 	#home {
 		display: flex;
@@ -85,7 +87,7 @@
 		gap: 20vh;
 		align-items: center;
 		width: 100%;
-		padding: 1.8em 1em;
+		padding: 1.8em 0 0;
 		min-height: 100vh;
 	}
 	.hero {
@@ -113,6 +115,16 @@
 		font-size: 120%;
 		max-width: 240px;
 		text-align: center;
+	}
+	.pulsating_gradient {
+		background: linear-gradient(transparent, #561ab355);
+		width: 100%;
+		height: 180px;
+		animation: pulsate 3s;
+		animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+		animation-iteration-count: infinite;
+		animation-duration: alternate;
+		animation-fill-mode: both;
 	}
 	#sponsors {
 		padding: 2.4em;
