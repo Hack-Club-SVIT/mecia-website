@@ -1,8 +1,10 @@
 {
   "name": "mecia-hacks-22",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://hack-club-svit.github.io/",
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
