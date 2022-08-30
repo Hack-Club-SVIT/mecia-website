@@ -45,7 +45,7 @@
 		<p class="subtext">an in-person multidisciplinary hackathon</p>
 		<div
 			class="apply-button"
-			data-hackathon-slug="hacksvit2022"
+			data-hackathon-slug="mecia-hacks"
 			data-button-theme="dark-inverted"
 			style="height: 44px; width: 312px"
 		/>
