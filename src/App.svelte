@@ -9,10 +9,29 @@
 	import replit from "./assets/replit.svg";
 	import Icon from "@iconify/svelte";
 
-	let sponsors = { devfolio, polygon, filecoin, solana, replit };
+	let sponsors = {
+		Diamond: [
+			[devfolio, "https://devfolio.co/"],
+			[polygon, "https://polygon.technology/"],
+		],
+		Platinum: [
+			[filecoin, "https://filecoin.io/"],
+			[solana, "https://solana.com/"],
+			[replit, "https://replit.com/"],
+		],
+	};
 </script>
 
 <svelte:head>
+	<title
+		>MECIA Hacks 2022 &bull; Multidisciplinary Hackathon + Ideothon &bull;
+		SVIT, Vasad</title
+	>
+	<meta content="MECIA Hacks 2022" property="og:title" />
+	<meta
+		content="Multidisciplinary Hackathon + Ideothon • SVIT, Vasad"
+		property="og:description"
+	/>
 	<script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
 </svelte:head>
 <div id="home">
@@ -31,6 +50,10 @@
 			style="height: 44px; width: 312px"
 		/>
 		<div class="icon_text_set">
+			<Icon width="24" icon="carbon:calendar" />
+			22 - 24 Sept '22
+		</div>
+		<div class="icon_text_set">
 			<Icon width="24" icon="carbon:location" />
 			SVIT, Vasad
 		</div>
@@ -39,12 +62,22 @@
 <section id="sponsors">
 	<div class="container">
 		<h1 style="margin-bottom: 64px;">Sponsors</h1>
-		<div class="sponsor_grid">
-			{#each Object.keys(sponsors) as sponsor}
-				<!-- svelte-ignore missing-declaration -->
-				<img class="sponsor_img" src={sponsors[sponsor]} alt="" />
-			{/each}
-		</div>
+		{#each Object.keys(sponsors) as type}
+			<h2 style="margin-bottom: 36px; color: #FFFFFF99">
+				{type}
+			</h2>
+			<div class="sponsor_grid">
+				{#each sponsors[type] as sponsor}
+					<a
+						href={sponsor[1]}
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						<img class="sponsor_img" src={sponsor[0]} alt="" />
+					</a>
+				{/each}
+			</div>
+		{/each}
 	</div>
 </section>
 
