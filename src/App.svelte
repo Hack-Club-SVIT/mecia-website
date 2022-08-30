@@ -9,7 +9,7 @@
 	import replit from "./assets/replit.svg";
 	import Icon from "@iconify/svelte";
 
-	let sponsors = ["devfolio", "polygon", "filecoin", "solana", "replit"];
+	let sponsors = { devfolio, polygon, filecoin, solana, replit };
 </script>
 
 <svelte:head>
@@ -40,9 +40,9 @@
 	<div class="container">
 		<h1 style="margin-bottom: 64px;">Sponsors</h1>
 		<div class="sponsor_grid">
-			{#each sponsors as sponsor}
+			{#each Object.keys(sponsors) as sponsor}
 				<!-- svelte-ignore missing-declaration -->
-				<img class="sponsor_img" src={eval(sponsor)} alt="" />
+				<img class="sponsor_img" src={sponsors[sponsor]} alt="" />
 			{/each}
 		</div>
 	</div>
