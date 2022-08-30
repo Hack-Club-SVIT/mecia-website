@@ -117,10 +117,10 @@
 		text-align: center;
 	}
 	.pulsating_gradient {
-		background: linear-gradient(transparent, #561ab355);
+		background: linear-gradient(transparent, #16062dee);
 		width: 100%;
 		height: 180px;
-		animation: pulsate 3s;
+		animation: pulsate 3.6s;
 		animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
 		animation-iteration-count: infinite;
 		animation-duration: alternate;
