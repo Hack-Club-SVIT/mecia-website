@@ -105,9 +105,4 @@
 	.sponsor_img {
 		width: 260px;
 	}
-	footer {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-	}
 </style>
