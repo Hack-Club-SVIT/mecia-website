@@ -11,18 +11,18 @@
 		],
 		platinum: [
 			[filecoin, "https://filecoin.io/"],
-			[solana, "https://solana.com/"],
 			[replit, "https://replit.com/"],
+			[solana, "https://solana.com/"],
 		],
 	};
 </script>
 
 <section id="sponsors">
 	<div class="container">
-		<h1 style="margin-bottom: 54px;">sponsors</h1>
+		<h1 style="margin-bottom: 64px;">sponsors</h1>
 		{#each Object.keys(sponsors) as type}
 			<h2 style="margin-top: 20px; margin-bottom: 36px; color: #FFFFFF99">
-				{type}
+				#{type}
 			</h2>
 			<div class="sponsor_grid">
 				{#each sponsors[type] as sponsor}
@@ -43,12 +43,14 @@
 	#sponsors {
 		padding: 2.4em 0;
 		/* text-align: center; */
-		background-color: #16062d;
+		background-color: var(--pink-300);
+		border-radius: 40px;
 	}
 	.sponsor_grid {
 		display: grid;
 		grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 		/* place-items: center; */
+		align-items: center;
 		row-gap: 48px;
 		column-gap: 24px;
 	}

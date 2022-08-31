@@ -43,7 +43,9 @@
 
 	color-scheme: dark;
 	color: rgba(255, 255, 255, 0.87);
-	background-color: #111;
+	/* color: #111; */
+	/* background-color: #111; */
+	background-color: var(--purple-300);
 
 	font-synthesis: none;
 	text-rendering: optimizeLegibility;
@@ -53,6 +55,30 @@
 
 	--sans-serif: "Chillax", Inter, Avenir, Helvetica, Arial, sans-serif;
 	--mono: "Space Mono", monospace;
+
+	/* Colors */
+	--pink-50: #ffecf0;
+	--pink-100: #ffc7d1;
+	--pink-100: #ffa1b3;
+	--pink-200: #ff7b95;
+	--pink-300: #ff5676;
+	--pink-400: #ff4367;
+	--pink-500: #e63c5d;
+	--pink-600: #b32f48;
+	--pink-700: #802234;
+	--pink-800: #4c141f;
+	--pink-900: #19070a;
+
+	--purple-50: #dddaff;
+	--purple-100: #bbb5ff;
+	--purple-100: #9a8fff;
+	--purple-200: #786aff;
+	--purple-300: #5645ff;
+	--purple-400: #4d3ee6;
+	--purple-500: #3c30b3;
+	--purple-600: #2b2380;
+	--purple-700: #1a154c;
+	--purple-800: #090719;
 }
 
 * {
@@ -63,11 +89,11 @@
 
 a {
 	font-weight: 500;
-	color: #9863e9;
+	color: var(--pink-200);
 	text-decoration: inherit;
 }
 a:hover {
-	color: #8b36e3;
+	color: var(--pink-300);
 	text-decoration: underline;
 }
 
