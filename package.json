@@ -9,7 +9,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "check": "svelte-check --tsconfig ./tsconfig.json",
-    "deploy": "yarn build && echo \"mecia.hackclubsvit.co\" > dist/CNAME && gh-pages -d dist -b dist"
+    "deploy": "npm run build && echo \"mecia.hackclubsvit.co\" > dist/CNAME && gh-pages -d dist -b dist"
   },
   "devDependencies": {
     "@iconify/svelte": "^2.2.1",
