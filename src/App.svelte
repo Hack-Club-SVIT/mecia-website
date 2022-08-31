@@ -40,11 +40,11 @@
 			data-button-theme="dark-inverted"
 			style="height: 44px; width: 312px"
 		/>
-		<div class="icon_text_set">
+		<div class="icon_text_pair">
 			<Icon width="24" icon="carbon:calendar" />
 			22 - 24 Sept '22
 		</div>
-		<div class="icon_text_set">
+		<div class="icon_text_pair">
 			<Icon width="24" icon="carbon:location" />
 			SVIT, Vasad
 		</div>
@@ -72,6 +72,26 @@
 		{/each}
 	</div>
 </section>
+<footer>
+	<div class="container">
+		<div class="flex justify-between items-center">
+			<div>
+				© 2022, <a
+					href="https://www.hackclubsvit.co"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					Hack Club SVIT</a
+				>. All rights reserved. &bull;
+				<a
+					href="https://devfolio.co/code-of-conduct"
+					target="_blank"
+					rel="noopener noreferrer">Code of Conduct</a
+				>
+			</div>
+		</div>
+	</div>
+</footer>
 
 <style>
 	header {
@@ -107,7 +127,7 @@
 		text-align: center;
 		font-size: 120%;
 	}
-	.icon_text_set {
+	.icon_text_pair {
 		font-family: var(--sans-serif);
 		display: flex;
 		align-items: center;
@@ -142,5 +162,9 @@
 	}
 	.sponsor_img {
 		width: 240px;
+	}
+	footer {
+		width: 100%;
+		padding: 24px 0;
 	}
 </style>
