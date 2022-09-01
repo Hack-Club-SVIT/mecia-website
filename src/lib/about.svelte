@@ -17,7 +17,7 @@
 				<p>departments</p>
 			</div>
 			<div class="flex flex-col">
-				<h1>30+</h1>
+				<h1>80+</h1>
 				<p>problem statements</p>
 			</div>
 		</div>
