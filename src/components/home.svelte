@@ -122,12 +122,12 @@
 	}
 	.svit_logo {
 		position: absolute;
-		opacity: 0.16;
+		opacity: 0.2;
 		bottom: 24px;
 		left: 50%;
 		transform: translate(-50%);
 		width: 40%;
-		max-width: 160px;
+		max-width: 120px;
 	}
 	.subtext {
 		font-family: var(--sans-serif);
@@ -135,7 +135,7 @@
 		max-width: 640px;
 		/* font-weight: 00; */
 		text-align: center;
-		font-size: 120%;
+		font-size: 140%;
 	}
 	.icon_text_pair {
 		font-family: var(--sans-serif);

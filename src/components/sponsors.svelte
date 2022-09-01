@@ -19,7 +19,11 @@
 
 <section id="sponsors">
 	<div class="container">
-		<h1 style="margin-bottom: 64px;">sponsors</h1>
+		<h1
+			style="margin-bottom: 64px; text-decoration: underline wavy var(--pink-200); text-underline-offset: 0.24em;"
+		>
+			sponsors
+		</h1>
 		{#each Object.keys(sponsors) as type}
 			<h2 style="margin-top: 20px; margin-bottom: 36px; color: #FFFFFF99">
 				#{type}
@@ -42,19 +46,26 @@
 <style>
 	#sponsors {
 		padding: 2.4em 0;
-		/* text-align: center; */
-		background-color: var(--pink-300);
-		border-radius: 40px;
+		/* background-color: var(--pink-300); */
+		/* border-radius: 40px; */
 	}
 	.sponsor_grid {
 		display: grid;
 		grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-		/* place-items: center; */
 		align-items: center;
 		row-gap: 48px;
 		column-gap: 24px;
 	}
 	.sponsor_img {
 		width: 240px;
+	}
+
+	@media screen and (max-width: 1240px) {
+		#sponsors {
+			text-align: center;
+		}
+		.sponsor_grid {
+			place-items: center;
+		}
 	}
 </style>
