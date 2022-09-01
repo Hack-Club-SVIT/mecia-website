@@ -42,7 +42,7 @@
 	font-weight: 400;
 
 	color-scheme: dark;
-	color: rgba(255, 255, 255, 0.9);
+	color: rgba(255, 255, 255, 0.94);
 	/* color: #111; */
 	/* background-color: #111; */
 	background-color: var(--purple-300);
@@ -79,6 +79,18 @@
 	--purple-600: #2b2380;
 	--purple-700: #1a154c;
 	--purple-800: #090719;
+}
+::-webkit-scrollbar {
+	width: 4px;
+	border-radius: 8px;
+	background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+	border-radius: 5px;
+	background-color: white;
+}
+::-webkit-scrollbar-thumb:hover {
+	background-color: whitesmoke;
 }
 
 * {

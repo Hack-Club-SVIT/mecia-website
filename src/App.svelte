@@ -1,9 +1,11 @@
 <script lang="ts">
 	import Icon from "@iconify/svelte";
-	import About from "./components/about.svelte";
+	import About from "./lib/about.svelte";
+	import FAQs from "./lib/faqs.svelte";
+	import Footer from "./lib/footer.svelte";
 
-	import Home from "./components/home.svelte";
-	import Sponsors from "./components/sponsors.svelte";
+	import Home from "./lib/home.svelte";
+	import Sponsors from "./lib/sponsors.svelte";
 </script>
 
 <svelte:head>
@@ -13,39 +15,5 @@
 <Home />
 <About />
 <Sponsors />
-<footer>
-	<div class="container">
-		<div class="flex justify-between items-center">
-			<div>
-				<Icon icon="charm:copyright" />
-				2022,
-				<a
-					href="https://www.hackclubsvit.co"
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					Hack Club SVIT</a
-				>. All rights reserved. &bull;
-				<a
-					href="https://devfolio.co/code-of-conduct"
-					target="_blank"
-					rel="noopener noreferrer">Code of Conduct</a
-				>
-			</div>
-		</div>
-	</div>
-</footer>
-
-<style>
-	footer {
-		width: 100%;
-		padding: 24px 0;
-		border-radius: 40px 40px 0 0;
-		background-color: var(--pink-300);
-		font-weight: 700;
-	}
-	footer a {
-		color: var(--pink-700);
-		font-weight: 700;
-	}
-</style>
+<FAQs />
+<Footer />

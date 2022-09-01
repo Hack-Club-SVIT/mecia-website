@@ -1,18 +1,17 @@
 <script lang="ts">
-	import typographyLogo from "../assets/logo_typo.svg";
-	import meciaMono from "../assets/logo_mono.svg";
-	import hcsLogo from "../assets/hcs_logo.svg";
-	// import circle from "../assets/circle.svg";
-	// import triangle from "../assets/triangle.svg";
-	import svitLogo from "../assets/svit_logo.svg";
 	import Icon from "@iconify/svelte";
+	import hcsLogo from "../assets/hcs_logo.svg";
+	import meciaMono from "../assets/logo_mono.svg";
+	import typographyLogo from "../assets/logo_typo.svg";
+	import svitLogo from "../assets/svit_logo.svg";
+	import triangle from "../assets/triangle.svg";
 </script>
 
 <div id="home">
-	<!-- <img id="circle_1" src={circle} alt="" />
+	<!-- <img id="circle_1" src={circle} alt="" /> -->
 	<img id="triangle_1" src={triangle} alt="" />
-	<img id="circle_2" src={circle} alt="" />
-	<img id="triangle_2" src={triangle} alt="" /> -->
+	<!-- <img id="circle_2" src={circle} alt="" /> -->
+	<!-- <img id="triangle_2" src={triangle} alt="" /> -->
 	<header>
 		<img width="60px" src={meciaMono} alt="Hack Club SVIT logo" />
 		<img width="60px" src={hcsLogo} alt="Hack Club SVIT logo" />
@@ -63,37 +62,38 @@
 	}
 	/* #circle_1 {
 		position: absolute;
-		top: -700px;
+		top: -560px;
 		left: -400px;
-		width: 64%;
-	}
-	#circle_2 {
+		width: 800px;
+	} */
+	/* #circle_2 {
 		position: absolute;
 		bottom: -700px;
 		left: -400px;
 		width: 900px;
-	}
+	} */
 	#triangle_1 {
 		position: absolute;
-		transform: rotate(-9deg);
-		top: -700px;
-		right: -400px;
-		width: 900px;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%) rotate(105deg);
+		width: 84%;
+		max-width: 540px;
 	}
-	#triangle_2 {
+	/* #triangle_2 {
 		position: absolute;
 		transform: rotate(-9deg);
 		top: 20%;
 		right: 20%;
 		width: 600px;
-	}
-	@media screen and (max-width: 640px) {
-		#circle_1 {
+	} */
+	@media screen and (max-width: 720px) {
+		/* #circle_1 {
 			width: 400px;
 			top: -240px;
 			left: -160px;
-		}
-		#circle_2 {
+		} */
+		/* #circle_2 {
 			width: 400px;
 			bottom: -200px;
 			left: -100px;
@@ -107,9 +107,10 @@
 			top: -80px;
 			right: -80px;
 			width: 200px;
-		}
-	} */
+		} */
+	}
 	.hero {
+		z-index: 10;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -122,7 +123,7 @@
 	}
 	.svit_logo {
 		position: absolute;
-		opacity: 0.2;
+		opacity: 0.8;
 		bottom: 24px;
 		left: 50%;
 		transform: translate(-50%);
@@ -131,7 +132,7 @@
 	}
 	.subtext {
 		font-family: var(--sans-serif);
-		color: var(--pink-200);
+		/* color: var(--pink-200); */
 		max-width: 640px;
 		/* font-weight: 00; */
 		text-align: center;

@@ -1,26 +1,7 @@
-<script lang="ts">
-	import devfolio from "../assets/devfolio.svg";
-	import polygon from "../assets/polygon.svg";
-	import filecoin from "../assets/filecoin.svg";
-	import solana from "../assets/solana.svg";
-	import replit from "../assets/replit.svg";
-	let sponsors = {
-		diamond: [
-			[devfolio, "https://devfolio.co/"],
-			[polygon, "https://polygon.technology/"],
-		],
-		platinum: [
-			[filecoin, "https://filecoin.io/"],
-			[replit, "https://replit.com/"],
-			[solana, "https://solana.com/"],
-		],
-	};
-</script>
-
 <section id="about">
 	<div class="container">
 		<h1 style="margin-bottom: 24px;">what is MECIA hacks</h1>
-		<p>
+		<p style="font-size: 120%;">
 			MECIA Hacks is an in-person, multidisciplinary hackathon being
 			organized at Sardar Vallabhbhai Patel Institute of Technology(SVIT),
 			Vasad. Our aim is to invoke a sense of collaboration among various
