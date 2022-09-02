@@ -80,10 +80,10 @@
   }
   #triangle_1 {
     position: absolute;
-    transform: rotate(370deg);
-    bottom: 200px;
-    right: 420px;
-    width: 490px;
+    transform: rotate(367deg);
+    bottom: 190px;
+    right: 460px;
+    width: 450px;
   }
   #triangle_2 {
     position: absolute;
