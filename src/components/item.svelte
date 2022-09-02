@@ -35,14 +35,13 @@
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
-    position: relative;
-    left: 80px;
   }
   .item > .title > p {
     color: rgb(255, 255, 255);
     padding: 20px 0;
     transition: color 0.3s;
     font-size: xx-large;
+    line-height: 30px;
     font-weight: 500;
     font-family: var(--mono);
   }
@@ -52,16 +51,13 @@
   .item > .title > img {
     width: 25px;
     height: 11px;
-    position: relative;
-    right: 100px;
     transition: transform 0.5s;
   }
   .item > .content {
     color: rgb(173, 167, 167);
     margin-bottom: 20px;
     transition: ease all 0.3s;
-    position: relative;
-    left: 80px;
+    line-height: 20px;
     height: auto;
     opacity: 1;
     font-size: large;

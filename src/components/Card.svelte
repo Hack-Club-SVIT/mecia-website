@@ -9,8 +9,6 @@
 
 <style>
   #faq {
-    overflow: hidden;
-
     padding: 2.4em 0;
     /* text-align: center; */
     background-color: var(--blue-300);
