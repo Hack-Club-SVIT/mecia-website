@@ -6,6 +6,15 @@
 
 	import Home from "./lib/home.svelte";
 	import Sponsors from "./lib/sponsors.svelte";
+
+	let data = fetch(
+		"https://api.instantwebtools.net/v1/passenger?page=0&size=10"
+	)
+		.then(r => r.json().then(res => res.data))
+		.catch(err => {
+			console.log(err);
+			return [];
+		});
 </script>
 
 <svelte:head>

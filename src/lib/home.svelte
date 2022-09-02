@@ -75,7 +75,7 @@
 	#triangle_1 {
 		position: absolute;
 		top: 50%;
-		left: 50%;
+		left: 52%;
 		transform: translate(-50%, -50%) rotate(105deg);
 		width: 84%;
 		max-width: 540px;
