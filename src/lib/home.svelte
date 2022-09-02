@@ -26,13 +26,16 @@
 			data-button-theme="dark-inverted"
 			style="height: 44px; width: 312px"
 		/>
-		<div class="icon_text_pair">
-			<Icon width="28" icon="carbon:calendar" />
-			22 - 24 sept '22
-		</div>
-		<div class="icon_text_pair">
-			<Icon width="28" icon="carbon:location" />
-			SVIT, Vasad
+		<div class="flex" style="gap: 12px;">
+			<div class="icon_text_pair">
+				<Icon width="28" icon="carbon:calendar" />
+				22 - 24 sept '22
+			</div>
+			&bull;
+			<div class="icon_text_pair">
+				<Icon width="28" icon="carbon:location" />
+				SVIT, Vasad
+			</div>
 		</div>
 	</main>
 	<div />
