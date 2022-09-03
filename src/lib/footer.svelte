@@ -1,6 +1,8 @@
 <script>
 	import Icon from "@iconify/svelte";
 	const handles = {
+		discord: "https://discord.gg/KZZzD8a7PY",
+		youtube: "https://www.youtube.com/channel/UC8XHRJT9TewOS0ET6tZjszg",
 		twitter: "https://www.twitter.com/hackclubsvit",
 		instagram: "https://www.instagram.com/hackclubsvit",
 		facebook: "https://www.facebook.com/hackclubsvit",
@@ -10,18 +12,27 @@
 
 <section id="socials">
 	<div class="container">
-		<h1>catch us on...</h1>
-		<div class="flex" style="gap: 8px;">
-			{#each Object.keys(handles) as handle}
-				<a
-					href={handles[handle]}
-					target="_blank"
-					rel="noopener noreferrer"
-					class="social_link"
-				>
-					<Icon width="64px" icon={`carbon:logo-${handle}`} />
-				</a>
-			{/each}
+		<h1
+			style="font-size: 200%; line-height: 1.4; margin-bottom: 32px; text-decoration: underline wavy var(--pink-200); text-underline-offset: 0.24em;"
+		>
+			get in touch
+		</h1>
+		<div class="flex flex-col items-center" style="gap: 12px;">
+			<div class="flex flex-wrap justify-center" style="gap: 8px;">
+				{#each Object.keys(handles) as handle}
+					<a
+						href={handles[handle]}
+						target="_blank"
+						rel="noopener noreferrer"
+						class="social_link"
+					>
+						<Icon width="32px" icon={`carbon:logo-${handle}`} />
+					</a>
+				{/each}
+			</div>
+			<a href="mailto:hello@hackclubsvit.co" style="color: #fff;">
+				<h2 style="font-size: 140%;">hello@hackclubsvit.co</h2>
+			</a>
 		</div>
 	</div>
 </section>
@@ -53,9 +64,10 @@
 		padding: 2.4em 0;
 	}
 	#socials .container {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
+		/* display: flex; */
+		/* justify-content: space-between; */
+		/* align-items: center; */
+		text-align: center;
 	}
 	footer {
 		width: 100%;

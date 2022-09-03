@@ -190,8 +190,14 @@ section {
 .flex-col {
 	flex-direction: column;
 }
+.flex-wrap {
+	flex-wrap: wrap;
+}
 .justify-between {
 	justify-content: space-between;
+}
+.justify-center {
+	justify-content: center;
 }
 .items-center {
 	align-items: center;

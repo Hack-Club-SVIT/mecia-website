@@ -4,11 +4,11 @@
         "answer": "Your team can have 2-4 members but, there should be only (insert the max number of CE/IT?MCA people that can be in a team)."
     },
     {
-        "question": "Can I make a team only with people who study in my discipline?Are there any fees to participate?",
+        "question": "Can I make a team only with people who study in my department?",
         "answer": "No, a hackathon is multidisciplinary unless otherwise stated and thus, in MECIA Hacks, there must be people from different disciplines with one member from CE/IT/MCA department."
     },
     {
-        "question": "I don’t know coding. Can I still participate? Do I need a team?",
+        "question": "I don’t know coding. Can I still participate?",
         "answer": "Yes! You don’t need to have a coding/programming background in order to participate in MECIA Hacks."
     },
     {
@@ -16,7 +16,7 @@
         "answer": "It is because in the real world, multiple disciplines work in collaboration with each other. Working with someone who doesn’t have the same background as you can be constructively challenging and can help you think of new, revolutionary ideas."
     },
     {
-        "question": "Why is it compulsory for team members to be from different departments?Will hardware be provided?",
+        "question": "Will hardware be provided?",
         "answer": "Yes! We will be providing you with necessary hardware to build your project."
     }
 ]
