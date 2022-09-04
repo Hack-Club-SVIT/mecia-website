@@ -103,10 +103,23 @@ a {
 	font-weight: 500;
 	color: var(--pink-200);
 	text-decoration: inherit;
+	text-decoration: underline;
+	transition: 0.3s;
 }
 a:hover {
 	color: var(--pink-300);
+}
+p a {
+	font-weight: 500;
+	color: var(--pink-200);
+	opacity: 0.8;
+	text-decoration: inherit;
 	text-decoration: underline;
+	transition: 0.3s;
+}
+p a:hover {
+	color: var(--pink-300);
+	opacity: 1;
 }
 
 body {

@@ -18,7 +18,7 @@
 	</div>
 	{#if isOpen}
 		<div class="body" transition:slide={{ duration: 300 }}>
-			<p>{body}</p>
+			<p>{@html body}</p>
 		</div>
 	{/if}
 </div>
