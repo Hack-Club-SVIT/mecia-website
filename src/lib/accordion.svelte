@@ -8,7 +8,13 @@
 </script>
 
 <div class="faq">
-	<div class="head" on:click={onPress}>
+	<div
+		class="head"
+		on:click={() => {
+			navigator.vibrate(100);
+			onPress();
+		}}
+	>
 		<h2>
 			{head}
 		</h2>

@@ -27,7 +27,6 @@
 			data-hackathon-slug="mecia-hacks"
 			data-button-theme="dark-inverted"
 			style="height: 44px; width: 312px"
-			on:click={() => navigator.vibrate(100)}
 		/>
 		<div class="icon_text_pair">
 			<Icon width="28" icon="carbon:calendar" />
