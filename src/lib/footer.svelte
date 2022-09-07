@@ -1,7 +1,7 @@
 <script>
 	import Icon from "@iconify/svelte";
 	const handles = {
-		discord: "https://discord.gg/KZZzD8a7PY",
+		discord: "https://discord.gg/hfwusgcBqH",
 		youtube: "https://www.youtube.com/channel/UC8XHRJT9TewOS0ET6tZjszg",
 		twitter: "https://www.twitter.com/hackclubsvit",
 		instagram: "https://www.instagram.com/hackclubsvit",
@@ -72,7 +72,7 @@
 	footer {
 		width: 100%;
 		padding: 24px 0;
-		border-radius: 40px 40px 0 0;
+		border-radius: 24px 24px 0 0;
 		background-color: var(--pink-300);
 		font-weight: 700;
 		color: var(--pink-700);
