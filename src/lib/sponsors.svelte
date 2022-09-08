@@ -4,12 +4,14 @@
 	import filecoin from "../assets/filecoin.svg";
 	import solana from "../assets/solana.svg";
 	import replit from "../assets/replit.svg";
+	import alian from "../assets/alian.png";
 	let sponsors = {
-		diamond: [
+		"title sponsor": [[alian, "https://aliansoftware.com/"]],
+		gold: [
 			[devfolio, "https://devfolio.co/"],
 			[polygon, "https://polygon.technology/"],
 		],
-		platinum: [
+		silver: [
 			[filecoin, "https://filecoin.io/"],
 			[replit, "https://replit.com/"],
 			[solana, "https://solana.com/"],
