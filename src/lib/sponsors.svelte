@@ -5,6 +5,7 @@
 	import solana from "../assets/solana.svg";
 	import replit from "../assets/replit.svg";
 	import alian from "../assets/alian.png";
+	import verspiel from "../assets/verspiel.png";
 	let sponsors = {
 		"title sponsor": [[alian, "https://aliansoftware.com/"]],
 		gold: [
@@ -16,6 +17,7 @@
 			[replit, "https://replit.com/"],
 			[solana, "https://solana.com/"],
 		],
+		bronze: [[verspiel, "https://verspiel.com"]],
 	};
 </script>
 

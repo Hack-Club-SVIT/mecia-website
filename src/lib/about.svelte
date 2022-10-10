@@ -27,7 +27,7 @@
 				<p>problem statements</p>
 			</div>
 		</div>
-		<h1 style="margin: 24px 0 0; text-align: center;">prizes</h1>
+		<!-- <h1 style="margin: 24px 0 0; text-align: center;">prizes</h1>
 		<div id="prizes">
 			<div class="prize_card" style="gap: 12px;">
 				<img style="max-width: 120px;" src={first_prize} alt="" />
@@ -41,7 +41,7 @@
 				<img style="max-width: 120px;" src={third_prize} alt="" />
 				<h2>₹10,000</h2>
 			</div>
-		</div>
+		</div> -->
 		<h3 style="text-align: center;">...and many other exciting prizes</h3>
 	</div>
 </section>
